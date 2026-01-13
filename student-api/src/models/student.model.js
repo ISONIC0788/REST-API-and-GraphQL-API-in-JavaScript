@@ -13,7 +13,7 @@ const studentSchema = new mongoose.Schema({
         lowercase:true
     },
     age: {
-        type: String,
+        type: Number,
         required: true
     },
     createAt: {
